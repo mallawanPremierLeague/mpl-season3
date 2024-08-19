@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Details</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image:url("cricket2.jpeg")
+        }
+
+        .container {
+            display: flex;
+            max-width: 1100px; /* Ensures the container doesn’t get too wide */
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 100%;
+            max-height:1000px
+        }
+
+        .image-container {
+            flex: 0 0 50%; /* Ensures the image container takes up 60% of the container's width */
+         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* padding: 10px; */
+            box-sizing: border-box; /* Includes padding in width calculation */
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+          
+        }
+
+        .details-container {
+            flex: 0 0 50%; /* Ensures the details container takes up 40% of the container's width */
+            padding: 50px;
+            box-sizing: border-box; /* Includes padding in width calculation */
+            line-height:30px;
+            background:rgba(0, 0, 250, 0.623);
+            color: white;
+            font-style: oblique;
+        }
+
+        .details-container h1 {
+            margin-top: 0;
+        }
+
+        .details-container p {
+            margin: 10px 0;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .image-container,
+            .details-container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <!-- Placeholder for the player image -->
+            <img id="imageLink" src="" alt="Loading..." style="max-width: 400px; height: 550px;">
+        </div>
+        <div class="details-container">
+            <h1 id="name">Name:</h1>
+            <p id="dateOfBirth">dateOfBirth: </p>
+            <p id="roleBatting">roleBatting: </p>
+            <p id="UTRNO">UTRNO: </p>
+            <p id="classification">classification: </p>
+            <p id="roleBowling">roleBowling: </p>
+            <p id="previousTeam">previousTeam: </p>
+            <p id="basePrice">basePrice: </p>
+            <p id="outsiders">outsiders: </p>
+            <p id="Under19">Under19: </p>
+           
+            <!-- Additional player details can be added here -->
+        </div>
+    </div>
+
+    <script>
+        // Function to get URL parameters
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            return {
+                name:params.get('name'),
+                dateOfBirth:params.get('dateOfBirth'),
+                roleBatting:params.get('roleBatting'),
+                UTRNO:params.get('UTRNO'),
+                classification:params.get('classification'),
+                roleBowling:params.get('roleBowling'),
+                previousTeam:params.get('previousTeam'),
+                basePrice:params.get('basePrice'),
+                outsiders:params.get('outsiders'),
+                Under19:params.get('Under19'),
+                imageLink:params.get('imageLink'),
+                
+            };
+        }
+
+        // Display the player's details
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = getQueryParams();
+            const nameElement = document.getElementById('name');
+            const dateOfBirthElement = document.getElementById('dateOfBirth');
+            const roleBattingElement = document.getElementById('roleBatting');
+            const UTRNOElement = document.getElementById('UTRNO');
+            const classificationElement = document.getElementById('classification');
+            const roleBowlingElement = document.getElementById('roleBowling');
+            const previousTeamElement = document.getElementById('previousTeam');
+            const basePriceElement = document.getElementById('basePrice');
+            const outsidersElement = document.getElementById('outsiders');
+            const Under19Element = document.getElementById('Under19');
+            const imageLinkElement = document.getElementById('imageLink');
+            
+
+            if (params.name) {
+                nameElement.textContent=`${decodeURIComponent(params.name)||"NA"}`
+                dateOfBirthElement.textContent=`Date Of Birth: ${decodeURIComponent(params.dateOfBirth)||"NA"}`
+                roleBattingElement.textContent=`Role Batting: ${decodeURIComponent(params.roleBatting)||"NA"}`
+                UTRNOElement.textContent=`UTR NO.: ${decodeURIComponent(params.UTRNO)||"NA"}`
+                classificationElement.textContent=`Classification: ${decodeURIComponent(params.classification)||"NA"}`
+                roleBowlingElement.textContent=`Role Bowling: ${decodeURIComponent(params.roleBowling)||"NA"}`
+                previousTeamElement.textContent=`Previous Team: ${decodeURIComponent(params.previousTeam)||"NA"}`
+                basePriceElement.textContent=`Base Price: ${decodeURIComponent(params.basePrice)||"NA"}`
+                outsidersElement.textContent=`Outsiders: ${decodeURIComponent(params.outsiders)||"NA"}`
+                Under19Element.textContent=`Under-19: ${decodeURIComponent(params.Under19)||"NA"}`
+                
+                imageLinkElement.src=decodeURIComponent(params.imageLink).replace("uc?export=view&","thumbnail?")||"NA"
+              //<img src="https://drive.google.com/thumbnail?id=1zAh0OFM7rEeyZluVVXJs2_rNvimvAH32" alt="Google Drive Photo" style="max-width: 100% height: auto;">
+            } else {
+                playerNameElement.textContent = 'Player Name not found.';
+               
+            }
+        });
+    </script>
+</body>
+</html>
