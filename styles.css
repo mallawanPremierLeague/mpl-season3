@@ -1,72 +1,81 @@
 
 
-  h1 {
-    line-height: 50%;
-    padding-top: 10%;
-  font-style: italic;
-    text-align: center; 
-    font-weight:bolder;
-    color: white;
-  }
-  #title {
-    background-image: url("cricket.jpeg");
-    text-align: right;
-    padding: 0%;
-    height:100%;
-   max-height:700px
-  }
-  
-  .title-image {
-    width: 100%;
-    max-height: 700px
-  }
+h1 {
+  font-style:oblique;
+   text-align: center; 
+   font-weight:bolder;
+   color: white;
+ }
+
+ .heading{
+margin-top: 8%;
+ }
+ #title {
+   background-image: url("cricket.jpeg");
+   text-align: center;
+   padding: 0%;
+   height:100%;
+  max-height:700px
+ }
+ 
+ .title-image {
+   width: 60%;
+   text-align: center;
+   max-height: 700px
+ }
+
+@media only screen and (max-width: 600px) {
+ .title-image {
+   width: 100%;
+   text-align: center;
+   max-height: 700px
+ }
+}
 
 
+ #footer {
+   margin: 3%;
+   text-align: center;
+ }
+ .fa-footer {
+   margin: 1rem;
+   text-decoration: none;
+ }
+ .fa-footer:hover {
+   transform: scale(1.9);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+   transition-duration: 120ms;
+ }
+ 
 
 
-  #footer {
-    margin: 3%;
-    text-align: center;
-  }
-  .fa-footer {
-    margin: 1rem;
-    text-decoration: none;
-  }
-  .fa-footer:hover {
-    transform: scale(1.9);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
-    transition-duration: 120ms;
-  }
-  
-
-
-  ul.player-list {
-    list-style-type: none; /* Removes default list styling */
-    padding: 0;
-    
+ ul.player-list {
+   list-style-type: none; /* Removes default list styling */
+   padding: 0;
+   
 }
 
 ul.player-list li {
-    background-color: white; /* Default background color */
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transition effect */
-    
+   background-color: white; /* Default background color */
+   margin-bottom: 10px;
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid #ddd;
+   transition: background-color 0.3s, transform 0.3s; /* Smooth transition effect */
+   
 }
 
 ul.player-list li:hover {
-    background-color: #d0eaff;; /* Pinkish background on hover */
-    transform: scale(1.02); /* Slight zoom effect */
+   background-color: #d0eaff;; /* Pinkish background on hover */
+   transform: scale(1.02); /* Slight zoom effect */
 }
 
 /* Optional: Styling for the links inside list items */
 ul.player-list li a {
-    text-decoration: none;
-    color:  #007bff;
+   text-decoration: none;
+   color:  #007bff;
 }
 
 ul.player-list li a:hover {
-    color: #e91e63; /* Pink color for link hover effect */
+   color: #e91e63; /* Pink color for link hover effect */
 }
