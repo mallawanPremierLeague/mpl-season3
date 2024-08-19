@@ -16,14 +16,14 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="image-container col-lg-6 col-sm-12 col-md-6">
+            <div class="image-container col-lg-6 col-sm-12 col-md-12">
                 <!-- Placeholder for the player image -->
                 <div class="iframe-container disable-interaction " >
                     <iframe id="imageLink" src="" title="player image"></iframe>
                    
                 </div>
             </div>
-            <div class="details-container col-lg-6 col-sm-12 col-md-6">
+            <div class="details-container col-lg-6 col-sm-12 col-md-12">
                 <h1 id="name">Name:</h1>
                 <p id="dateOfBirth">dateOfBirth: </p>
                 <p id="roleBatting">roleBatting: </p>
@@ -80,15 +80,15 @@
 
             if (params.name) {
                 nameElement.textContent=`${decodeURIComponent(params.name)||"NA"}`
-                dateOfBirthElement.textContent=`Date Of Birth: ${decodeURIComponent(params.dateOfBirth)||"NA"}`
-                roleBattingElement.textContent=`Role Batting: ${decodeURIComponent(params.roleBatting)||"NA"}`
-                UTRNOElement.textContent=`UTR NO.: ${decodeURIComponent(params.UTRNO)||"NA"}`
-                classificationElement.textContent=`Classification: ${decodeURIComponent(params.classification)||"NA"}`
-                roleBowlingElement.textContent=`Role Bowling: ${decodeURIComponent(params.roleBowling)||"NA"}`
-                previousTeamElement.textContent=`Previous Team: ${decodeURIComponent(params.previousTeam)||"NA"}`
-                basePriceElement.textContent=`Base Price: ${decodeURIComponent(params.basePrice)||"NA"}`
-                outsidersElement.textContent=`Outsiders: ${decodeURIComponent(params.outsiders)||"NA"}`
-                Under19Element.textContent=`Under-19: ${decodeURIComponent(params.Under19)||"NA"}`
+                dateOfBirthElement.textContent=`Date Of Birth 🎂:        ${decodeURIComponent(params.dateOfBirth)||"NA"}`
+                roleBattingElement.textContent=`Role Batting 🏏:        ${decodeURIComponent(params.roleBatting)||"NA"}`
+                UTRNOElement.textContent=`UTR NO. 💰:        ${decodeURIComponent(params.UTRNO)||"NA"}`
+                classificationElement.textContent=`Classification 🏛️:        ${decodeURIComponent(params.classification)||"NA"}`
+                roleBowlingElement.textContent=`Role Bowling 🤾:        ${decodeURIComponent(params.roleBowling)||"NA"}`
+                previousTeamElement.textContent=`Previous Team 🏏:        ${decodeURIComponent(params.previousTeam)||"NA"}`
+                basePriceElement.textContent=`Base Price 💵:        ${decodeURIComponent(params.basePrice)||"NA"}`
+                outsidersElement.textContent=`Outsiders ➡️:        ${decodeURIComponent(params.outsiders)||"NA"}`
+                Under19Element.textContent=`Under-19 👨‍🦱:        ${decodeURIComponent(params.Under19)||"NA"}`
                 
                 imageLinkElement.src=decodeURIComponent(params.imageLink)+"/preview"||"NA"
               //<img src="https://drive.google.com/thumbnail?id=1zAh0OFM7rEeyZluVVXJs2_rNvimvAH32" alt="Google Drive Photo" style="max-width: 100% height: auto;">
