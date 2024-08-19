@@ -89,8 +89,12 @@
                 basePriceElement.textContent=`Base Price 💵:        ${decodeURIComponent(params.basePrice)||"NA"}`
                 outsidersElement.textContent=`Outsiders ➡️:        ${decodeURIComponent(params.outsiders)||"NA"}`
                 Under19Element.textContent=`Under-19 👨‍🦱:        ${decodeURIComponent(params.Under19)||"NA"}`
-                
-                imageLinkElement.src=decodeURIComponent(params.imageLink)+"/preview"||"NA"
+                if(params.imageLink.includes("Invalid")||!params.imageLink){
+              imageLinkElement.alt="No Image"
+                }else{
+             imageLinkElement.src=decodeURIComponent(params.imageLink)+"/preview"
+                }
+   
               //<img src="https://drive.google.com/thumbnail?id=1zAh0OFM7rEeyZluVVXJs2_rNvimvAH32" alt="Google Drive Photo" style="max-width: 100% height: auto;">
             } else {
                 playerNameElement.textContent = 'Player Name not found.';
