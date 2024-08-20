@@ -1570,7 +1570,7 @@ const playersArray=[
     "basePrice": "500",
     "outsiders ": "",
     "Under19": "",
-    "imageLink": "https://drive.google.com/1TOzFppYTnqDcqpVF7Vss_OCeIzHd10-r"
+    "imageLink": "https://drive.google.com/d/file/1TOzFppYTnqDcqpVF7Vss_OCeIzHd10-r"
   },
 ]
 
