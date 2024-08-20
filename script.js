@@ -1,5 +1,18 @@
 const playersArray=[
   {
+    "name": "Vissu Kushwaha",
+    "dateOfBirth": "10-09-1998",
+    "roleBatting": "Right Hand batsman",
+    "UTRNO": "4.59E+11",
+    "classification": "Wicket keeper",
+    "roleBowling": "Right Arm Fast Medium",
+    "previousTeam": "RCB",
+    "basePrice": "200",
+    "outsiders ": "",
+    "Under19": "",
+    "imageLink": "https://drive.google.com/file/d/1TIhTqmWLOWvHZl5IiIgCXyQlebNYZEcy"
+  },
+  {
     "name": "Prakhar verma",
     "dateOfBirth": "23-04-2001",
     "roleBatting": "Right Hand batsman",
