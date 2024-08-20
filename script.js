@@ -1587,7 +1587,7 @@ const playersArray=[
   },
   {
     "name": "Brajesh KUMAR",
-    "dateOfBirth": "01-01-1995",
+    "dateOfBirth": "01-11-1990",
     "roleBatting": "Right Hand batsman",
     "UTRNO": "4.59E+11",
     "classification": "Wicket keeper",
@@ -1596,7 +1596,7 @@ const playersArray=[
     "basePrice": "500",
     "outsiders ": "",
     "Under19": "",
-    "imageLink": "https://drive.google.com/d/file/1TOzFppYTnqDcqpVF7Vss_OCeIzHd10-r"
+    "imageLink": "https://drive.google.com/file/d/1TOzFppYTnqDcqpVF7Vss_OCeIzHd10-r"
   },
 ]
 
