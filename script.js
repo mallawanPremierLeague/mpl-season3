@@ -1,5 +1,18 @@
 const playersArray=[
   {
+    "name": "Prakhar verma",
+    "dateOfBirth": "23-04-2001",
+    "roleBatting": "Right Hand batsman",
+    "UTRNO": "4.59E+11",
+    "classification": "Wicket keeper",
+    "roleBowling": "Right Arm Fast Medium",
+    "previousTeam": "RCB",
+    "basePrice": "500",
+    "outsiders ": "",
+    "Under19": "",
+    "imageLink": "https://drive.google.com/file/d/1TMTxAGg11wj_VUTcTwYEaXfrX0W9Cudj"
+  },
+  {
     "name": "YOGESH KUMAR",
     "dateOfBirth": "01-01-1995",
     "roleBatting": "Right Hand batsman",
