@@ -13,6 +13,19 @@ const playersArray=[
     "imageLink": "https://drive.google.com/file/d/1TIhTqmWLOWvHZl5IiIgCXyQlebNYZEcy"
   },
   {
+    "name": "Jeevesh Nandan Tripathi",
+    "dateOfBirth": "04-11-2004",
+    "roleBatting": "Right Hand batsman",
+    "UTRNO": "4.59E+11",
+    "classification": "",
+    "roleBowling": "Right Arm Fast Medium",
+    "previousTeam": "",
+    "basePrice": "200",
+    "outsiders ": "",
+    "Under19": "",
+    "imageLink": "https://drive.google.com/file/d/1TNCm9wbLPayas4JUteeU38EMlTLzcQA6"
+  },
+  {
     "name": "Prakhar verma",
     "dateOfBirth": "23-04-2001",
     "roleBatting": "Right Hand batsman",
