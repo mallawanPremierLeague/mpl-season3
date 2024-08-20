@@ -1545,7 +1545,20 @@ const playersArray=[
     "outsiders ": "",
     "Under19": "",
     "imageLink": "https://drive.google.com/file/d/1VuDVdfceKmJLjLcAxp67Kauc7R5GZS2i"
-  }
+  },
+  {
+    "name": "Brajesh KUMAR",
+    "dateOfBirth": "01-01-1995",
+    "roleBatting": "Right Hand batsman",
+    "UTRNO": "4.59E+11",
+    "classification": "Wicket keeper",
+    "roleBowling": "Right Arm Fast Medium",
+    "previousTeam": "MARATHA'S",
+    "basePrice": "500",
+    "outsiders ": "",
+    "Under19": "",
+    "imageLink": "https://drive.google.com/1TOzFppYTnqDcqpVF7Vss_OCeIzHd10-r"
+  },
 ]
 
 
