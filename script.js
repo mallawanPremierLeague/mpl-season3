@@ -1,5 +1,18 @@
 const playersArray=[
   {
+    "name": "Harshit Gautam",
+    "dateOfBirth": "25-09-2009",
+    "roleBatting": "Right Hand batsman",
+    "UTRNO": "4.59E+11",
+    "classification": "Wicket keeper",
+    "roleBowling": "Right Arm Fast Medium",
+    "previousTeam": "",
+    "basePrice": "500",
+    "outsiders ": "yes",
+    "Under19": "yes",
+    "imageLink": "https://drive.google.com/file/d/1Tv8wZZx9ZPbdBi98Pt0zcXZHWNh-dHVF"
+  },
+  {
     "name": "Vissu Kushwaha",
     "dateOfBirth": "10-09-1998",
     "roleBatting": "Right Hand batsman",
