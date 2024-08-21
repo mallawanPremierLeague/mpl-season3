@@ -468,7 +468,7 @@ const playersArray=[
     "imageLink": "https://drive.google.com/file/d/1gebmgcwMKVm2Flzj1oLCxmFXc0tX2nrb"
   },
   {
-    "name": "Rijul Singh",
+    "name": "???? ? ??ing?",
     "dateOfBirth": "21-12-2004",
     "roleBatting": "Right Hand batsman",
     "UTRNO": "0",
