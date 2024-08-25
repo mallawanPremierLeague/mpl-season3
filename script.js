@@ -1,4 +1,5 @@
 const playersArray=[
+  {
   "name": "Mohd. Tarik",
     "dateOfBirth": "01-01-1996",
     "roleBatting": "Right Hand batsman",
