@@ -1,17 +1,5 @@
 const playersArray=[
   {
-  "name": "Mohd. Tarik",
-    "dateOfBirth": "01-01-1996",
-    "roleBatting": "Right Hand batsman",
-    "UTRNO": "4.59E+11",
-    "classification": "Wicket keeper",
-    "roleBowling": "Right Arm Fast Medium",
-    "previousTeam": "",
-    "basePrice": "500",
-    "outsiders ": "",
-    "Under19": "",
-    "imageLink": "https://drive.google.com/file/d/1VDFMG3zwQX958zgfFvhJCNfEprx8n5Ys
-  {
     "name": "Harshit Gautam",
     "dateOfBirth": "25-09-2009",
     "roleBatting": "Right Hand batsman",
